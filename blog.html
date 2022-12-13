@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anisha's Vizfolio</title>
+
+    <!--link to relevant stylesheets-->
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+<!--     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script> -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--setting menu bar for navigations-->
+    <header>
+      <nav>
+        <a href="/home.html">Home</a>
+        <a href="/blog.html" class="active">Blog</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <!--setting blog title and cover-->
+
+    <div class="blog_title">
+      <h1>How varied is the cost of basic amenities between cities?</h1>
+      <h5>Student Project | November 2022</h5>
+    </div>
+
+    <div class="blog_banner">
+      <img src="images/blog.png" alt="Blog post" />
+    </div>
+
+    <!--Blog section 1 - context-->
+
+    <div class="blog_content_1">
+      <div class="left_content">
+        <h2>Context</h2>
+        <p>
+          Having lived in India, Italy and now the USA, I have always been
+          amazed about how different the costs are for food, housing, and other
+          basic amenities between these countries. These costs are all tied to
+          daily wages which then impact the overall cost of living. In order to
+          have a comparative overview, I created a visualization that showcases
+          the costs of select amenities in select cities/ states of India, Italy
+          and USA.
+        </p>
+        <a href="">Interact with Visualization </a>
+      </div>
+      <div class="right_content_2">
+        <img src="images/blog1.png" alt="Blog post" />
+      </div>
+    </div>
+
+    <!--Blog section 2 - Data set Kaggle-->
+    <div class="blog_content_2">
+      <div class="left_content">
+        <img src="images/blog2.png" alt="datset" />
+      </div>
+      <div class="right_content">
+        <h2>Data Set Selected</h2>
+        <p>
+          I used a dataset from
+          <a
+            href="https://www.kaggle.com/datasets/mvieira101/global-cost-of-living?resource=download"
+            >Kaggle</a
+          >
+          that contains information about the cost of living in almost 5000
+          cities across the world.<br />
+          This data set contains prices for 54 variables. For my visualization,
+          I first cleaned the datset on python to focus on select 6 variables
+          and 10 cities.
+        </p>
+        <a
+          href="https://colab.research.google.com/drive/1IUu_Ww80_xsiJq9UtSR5ObfDAzOqX_ws?usp=sharing"
+          >Data Manipulation In Python
+        </a>
+      </div>
+    </div>
+
+    <!--Blog section 3 - Variable selection-->
+    <div class="blog_content_3">
+      <div class="text_content">
+        <h2>Data Cleaning - Variable Selection</h2>
+        <p>
+          I first shortlisted the 10 cities/regions I would be including in my
+          visualization based on my
+          <b>personal experiences and interactions </b>with the place. Starting
+          with home in India (Mumbai) and Italy (Milan) where I lived for 3
+          years for work. For USA, I decided to take 2 states each from the 4
+          regions of USA. I selected California, a place I visist often to be
+          with my husband, Boston which is where I am studying, and Micgigan
+          which is where I lived for a short time when my husand was in grad
+          school.
+        </p>
+        <p>
+          For the variable, I again delved into my personal experience and
+          listed amenities where I found a visible difference in the costs
+          across geographies (including minimum wage). I grouped them under 4
+          main categories based on the variables of the original dataset.
+        </p>
+      </div>
+      <div class="image_content">
+        <img src="images/blog4.png" alt="datset" />
+      </div>
+    </div>
+
+    <!--Blog section 4 - Cleaned dataset-->
+    <div class="blog_content_3">
+      <div class="text_content">
+        <h2>Final Dataset for Visualization</h2>
+      </div>
+      <div class="image_content">
+        <img src="images/blog5.png" alt="datset" />
+      </div>
+    </div>
+
+    <!--Visualization-->
+    <div class="blog_content_3">
+      <div class="text_content">
+        <h2>Final Visualization</h2>
+      </div>
+      <div class="image_content">
+        <img src="images/blog5.png" alt="datset" />
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <p>Made with <i class="icon-heart"></i> by Anisha Agarwal</p>
+    </footer>
+  </body>
+</html>
