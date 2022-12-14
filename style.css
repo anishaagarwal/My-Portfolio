@@ -179,6 +179,16 @@ main {
   margin-bottom: 15%;
 }
 
+.skills {
+  margin-top: 5%;
+}
+
+.skills li {
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  line-height: 1.5em;
+}
+
 /* BLOG */
 /* Styling blog title and cover image */
 .blog_title {
